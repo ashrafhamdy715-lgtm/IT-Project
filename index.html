@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Project</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navBar">
+                <nav>
+                    <div class="list">
+                        <ul>
+                            <a href="#Home"><li>Home</li></a>
+                            <a href="#MyCourses"><li>My Courses</li></a>
+                            <a href="#AddCourse"><li>Add Course</li></a>
+                            <a href="#ContactUs"><li>Contact Us</li></a>
+                        </ul>
+                    </div>
+                    <div class="logo">
+                        <img src="./images/67b049834a8c2.png" alt="">
+                    </div>
+                </nav>
+            </div>
+            <div class="page1">
+                <div class="head">
+                    <h1>Welcome to My Course</h1>
+                    <p>Organize and track all your courses easily</p> 
+                    <a href="#MyCourses"><button>View my Courses</button></a>
+                </div>
+                <div class="poster">
+                    <img src="./images/gulfpicasso-0d317092-347c-4116-85ab-923e494a00c3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="MyCourses" class="org">
+        <h2>My Courses</h2>
+        <main>
+            <table>
+            
+                <thead>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                    <th>Hours</th>
+                    <th>Status</th>
+                </thead>
+                <tbody>
+                    <td>HTML</td>
+                    <td>Ahmed</td>
+                    <td>3</td>
+                    <td>Done</td>
+                </tbody>
+                <tbody>
+                    <td>JavaScript</td>
+                    <td>Ali</td>
+                    <td>2</td>
+                    <td>In Progress</td>
+                </tbody>
+                <tbody>
+                    <td>CSS</td>
+                    <td>Sara</td>
+                    <td>4</td>
+                    <td>Not Started</td>
+                </tbody>
+                <tbody>
+                    <td>Database System</td>
+                    <td>Khaled</td>
+                    <td>3</td>
+                    <td>In Progress</td>
+                </tbody>
+                <tbody>
+                    <td>Networking</td>
+                    <td>Mona</td>
+                    <td>2</td>
+                    <td>Done</td>
+                </tbody>
+                <tbody>
+                    <td>Machine Learning</td>
+                    <td>Omar</td>
+                    <td>3</td>
+                    <td>Not Started</td>
+                </tbody>
+            
+            </table>
+        </main>
+    </section>
+    <section id="AddCourse" class="add">
+        <h2>Add Course</h2>
+        <form action="">
+            <div class="input">
+                <label for="courseName">Course Name</label>
+                <input type="text" id="courseName" required name="courseName" placeholder="Course Name">
+            </div>
+            <div class="input">
+                <label for="Instructor">Instructor</label>
+                <input type="text" id="Instructor" required name="instructor">
+            </div>        
+            <div class="input">
+                <label for="hour">Credit Hours</label>
+                <input type="number" id="hour" required name="hours">
+            </div>
+            <div class="input">
+                <label for="nots">Nots</label>
+                <textarea name="nots" id="nots"></textarea>
+            </div>   
+            <button>Send</button> 
+        </form>
+    </section>
+    <section id="ContactUs">
+        <h2></h2>
+        <h4></h4>
+        <div class="email">
+            
+        </div>
+        <div class="app">
+
+        </div>
+    </section>
+    <section id="ContactUs">
+        <h2>Contact Us</h2>
+        <form action="" >
+            <div class="input">
+                <label for="YoureName">Full Name</label>
+                <input type="text" id="YourName" required placeholder="Your name" name="name">
+            </div>
+            <div class="input">
+                <label for="E-mail">Email Address</label>
+                <input type="email" id="E-mail" required placeholder="Your E-mail" name="Email">
+            </div>
+            <button>Send</button>    
+            <p>Email: mycourse@gmail.com</p>
+            <p>Phone: +201376926396</p>
+        </form>
+    </section>
+    <footer class="copyright">
+        <p>&copy; 2026 My Project. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
