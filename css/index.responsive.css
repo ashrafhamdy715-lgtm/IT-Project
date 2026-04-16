@@ -1,0 +1,235 @@
+@media (max-width: 1300px) {
+
+
+    header nav .list ul li {
+        display: block;
+    }
+
+    header .container .page1 {
+        flex-wrap: wrap;
+    }
+
+    header .container .page1 .poster {
+        width: 100%;
+    }
+
+    header .container .page1 .poster img {
+        width: 55%;
+    }
+
+
+    header .head h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+
+    header .head p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+
+
+    header .head button {
+        background-color: #000;
+        color: #fff;
+        border-color: transparent;
+        width: fit-content;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+
+    header .container .head button {
+        margin: 20px 0px;
+    }
+
+
+    section#AddCourse .input input,
+    section#AddCourse .input textarea,
+    section#AddCourse button {
+        width: 70%;
+    }
+
+
+    section#ContactUs .input input,
+    section#ContactUs button {
+        width: 70%;
+    }
+
+    section#ContactUs p {
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    header .container .page1 .poster {
+        width: 100%;
+    }
+
+    header .container .page1 .poster img {
+        width: 40%;
+    }
+
+
+
+    header .head h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+
+    header .head p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+
+
+    header .head button {
+        background-color: #000;
+        color: #fff;
+        border-color: transparent;
+        width: fit-content;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+
+    section#AddCourse .input input,
+    section#AddCourse .input textarea,
+    section#AddCourse button {
+        width: 80%;
+    }
+
+
+    section#ContactUs p {
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+    section#ContactUs .input input,
+    section#ContactUs button {
+        width: 80%;
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+
+
+    nav ul a {
+        color: #000;
+        outline: hidden;
+        margin: 10px;
+    }
+
+
+
+    header nav .list ul li {
+        display: inline-block;
+    }
+
+
+
+
+    header .container .page1 .poster {
+        width: 100%;
+    }
+
+    header .container .page1 .poster img {
+        width: 31%;
+    }
+
+
+
+    header .head h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+
+    header .head p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    header .head button {
+    background-color: #000;
+    color: #fff;
+    border-color: transparent;
+    width: fit-content;
+    font-size: 17px;
+    padding: 5px;
+}
+
+
+
+
+    section#AddCourse .input input,
+    section#AddCourse .input textarea,
+    section#AddCourse button {
+        width: 100%;
+    }
+
+
+    section#ContactUs .input input,
+    section#ContactUs button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    header nav .list ul li {
+        display: inline-block;
+    }
+
+
+    nav ul a {
+        color: #000;
+        outline: hidden;
+        margin: 20px;
+    }
+
+
+
+     header .container .page1 .poster {
+        width: 100%;
+    }
+
+    header .container .page1 .poster img {
+        width: 30%;
+    }
+
+
+    header .head button {
+    background-color: #000;
+    color: #fff;
+    border-color: transparent;
+    width: fit-content;
+    font-size: 20px;
+    padding: 5px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header .head button {
+    background-color: #000;
+    color: #fff;
+    border-color: transparent;
+    width: fit-content;
+    font-size: 25px;
+    padding: 5px;
+}
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}

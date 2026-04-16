@@ -1,0 +1,313 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+nav ul a {
+    color: #000;
+    outline: hidden;
+    margin: 20px;
+}
+
+
+nav ul a:hover {
+    border-bottom: 2px solid #000;
+}
+
+nav ul {
+    margin: 20px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav .logo {
+    width: 100px;
+    position: relative;
+} 
+
+
+nav .logo img {
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50px);
+}
+
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6EFBB;
+}
+
+header .container .page1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+header .head h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+
+header .head p {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+header .head button {
+    background-color: #000;
+    color: #fff;
+    border-color: transparent;
+    width: fit-content;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+header .head button:hover {
+    cursor: pointer;
+}
+
+
+header .poster {
+    width: 35%;
+    
+}
+
+header .poster img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+
+section.org {
+    padding-bottom: 20px;
+}
+
+
+section h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px;
+}
+
+
+
+section.org main table {
+     width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    /* display: flex; */
+}
+
+
+section.org table thead {
+    background-color: red;
+    margin: 20px 0px;
+    
+}
+
+
+section.org table thead th {
+    padding: 20px;
+    font-size: 30px;
+}
+
+section.org table tbody {
+    /* padding-bottom: 20px; */
+}
+
+
+section.org table tbody td {
+    padding: 20px;
+}
+
+
+section.org table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+section.org table tbody:nth-of-type(1),
+section.org table tbody:nth-of-type(3),
+section.org table tbody:nth-of-type(5) {
+    background-color: #E0D89A;
+}
+
+section.org table tbody:nth-of-type(2),
+section.org table tbody:nth-of-type(4),
+section.org table tbody:nth-of-type(6) {
+    background-color: #F6EFBB;
+}
+
+
+
+section#AddCourse {
+   background-color: #E0D89A;
+}
+
+
+section#AddCourse form {
+    width: 400px;
+    margin: auto;
+}
+
+section#AddCourse .input  {
+    display: block;
+    font-size: 20px;
+} 
+
+section#AddCourse .input input,
+section#AddCourse .input textarea {
+    padding: 5px;
+    width: 100%;
+}
+
+
+section#AddCourse .input textarea {
+    resize: none;
+    height: 200px;
+}
+
+
+
+section#AddCourse .input textarea {
+    margin-right: 17px;
+    padding: 5px;
+}
+
+
+
+section#AddCourse .input label {
+    display: block;
+    padding: 30px 0px 10px;
+}
+
+
+
+section#AddCourse button {
+    margin: 30px 0px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 0px;
+    background-color: #28A745;
+}
+
+
+section#ContactUs {
+    background-color: #C97B3B;
+    padding-bottom: 50px;
+}
+
+
+section#ContactUs form {
+    width: 400px;
+    margin: auto;
+}
+
+
+
+section#ContactUs .input  {
+    display: block;
+    font-size: 20px;
+} 
+
+
+section#ContactUs .input input {
+    padding: 5px;
+    width: 100%;
+}
+
+
+section#ContactUs .input label {
+    display: block;
+    padding: 30px 0px 10px;
+}
+
+
+section#ContactUs button {
+    margin: 30px 0px;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 0px;
+    font-size: 20px;
+
+}
+
+section#ContactUs p {
+    text-align: left;
+    font-size: 25px;
+}
+
+
+
+footer.copyright {
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer.copyright p {
+    
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
